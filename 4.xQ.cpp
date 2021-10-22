@@ -7,5 +7,5 @@ int main()
     double y = valueInput();
     char operation = operatorInput();
     calculateAndPrint(x, y, operation);
-
+    system("pause");
 }

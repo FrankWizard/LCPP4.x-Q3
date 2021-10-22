@@ -27,18 +27,18 @@ void calculateAndPrint(double x, double y, char operation)
 {
 	if (operation == '+')
 	{
-		std::cout << x << " + " << y << " = " << x + y;
+		std::cout << x << " + " << y << " = " << x + y << std::endl;
 	}
 	if (operation == '-')
 	{
-		std::cout << x << " - " << y << " = " << x - y;
+		std::cout << x << " - " << y << " = " << x - y << std::endl;
 	}
 	if (operation == '*')
 	{
-		std::cout << x << " * " << y << " = " << x * y;
+		std::cout << x << " * " << y << " = " << x * y << std::endl;
 	}
 	if (operation == '/')
 	{
-		std::cout << x << " / " << y << " = " << x / y;
+		std::cout << x << " / " << y << " = " << x / y << std::endl;
 	}
 }
